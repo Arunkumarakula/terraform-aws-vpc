@@ -1,5 +1,3 @@
-output "public_subnet_info" {
-    value = module.this.public_subnets
+output "public_subnets" {
+    value = aws_subnet.public
 }
-
-# it shows all the information about creation
